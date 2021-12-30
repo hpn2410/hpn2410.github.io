@@ -82,13 +82,11 @@ function fetch_database() {
         tx.executeSql(query,["T-Shirt"], fetch_transaction_success("T-Shirt"), transaction_error)
         tx.executeSql(query,["Hoodies"], fetch_transaction_success("Hoodies"), transaction_error)
 
-        // var query = "INSERT INTO product (name, description, price, category_id) VALUES (?,?,?,?)"
+        var query = "INSERT INTO product (name, description, price, category_id) VALUES (?,?,?,?)"
 
-        // tx.executeSql(query,["PRODUCT 01","DESCRIPTION 01", 20000,1], fetch_transaction_success("CATEGORY 01"), transaction_error)
-        // tx.executeSql(query,["PRODUCT 02","DESCRIPTION 02", 50000,1], fetch_transaction_success("CATEGORY 02"), transaction_error)
-        // tx.executeSql(query,["PRODUCT 03","DESCRIPTION 03", 100000,2], fetch_transaction_success("CATEGORY 03"), transaction_error)
-        // tx.executeSql(query,["PRODUCT 04","DESCRIPTION 04", 200000,2], fetch_transaction_success("CATEGORY 04"), transaction_error)
-        // tx.executeSql(query,["PRODUCT 05","DESCRIPTION 05", 500000,3], fetch_transaction_success("CATEGORY 05"), transaction_error)
+        tx.executeSql(query,["SAD SIGNATURE SHIRT-DTXT","", 12, "T-Shirt"], fetch_transaction_success("T-Shirt"), transaction_error)
+        tx.executeSql(query,["Sadboiz T-Shirt-KAMZ","", 12, "T-Shirt"], fetch_transaction_success("T-Shirt"), transaction_error)
+        tx.executeSql(query,["SADTAGRAM Hoodie-SHED","", 12, "Hoodies"], fetch_transaction_success("Hoodies"), transaction_error)
     });
 }
 
