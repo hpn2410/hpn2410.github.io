@@ -1,0 +1,685 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header, slogan */
+
+.header {
+  height: 46px;
+  background-color: #000;
+}
+
+.slogan {
+  color: #fff;
+  text-align: center;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.Top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar */
+
+.nav {
+  background-color: #fff;
+}
+
+.nav a > img {
+  height: 130px;
+  width: 228px;
+  float: left;
+  margin: 32px 8px;
+}
+
+.subnav_1 {
+  display: inline-block;
+}
+
+.subnav_1 ul {
+  list-style-type: none;
+}
+
+.subnav_1 li {
+  display: inline-block;
+  line-height: 200px;
+}
+
+.subnav_1 li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  margin: 0 20px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.subnav_1 li a::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #333;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+}
+
+.subnav_1 li a:hover::after {
+  width: 102%;
+}
+
+/* search, user, shopping */
+
+.font_nav {
+  float: right;
+}
+
+.font_nav_1 {
+  float: right;
+  line-height: 200px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+}
+
+.font_nav_2 {
+  float: right;
+  line-height: 200px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+}
+
+.font_nav_3 {
+  float: right;
+  line-height: 200px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+}
+
+.font_nav_1 a,
+.font_nav_2 a,
+.font_nav_3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.font_nav_1::after,
+.font_nav_2::after,
+.font_nav_3::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  position: absolute;
+  background-color: #333;
+  bottom: 60px;
+  left: 15px;
+}
+
+.font_nav_1:hover::after,
+.font_nav_2:hover::after,
+.font_nav_3:hover::after {
+  width: 75%;
+}
+
+/* content */
+
+.content {
+  margin-top: 264px;
+}
+
+.heading_1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 16x;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 40px;
+}
+/* sp1 */
+.items {
+  display: inline-block;
+}
+
+.items img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items .shirt-name {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items .price {
+  padding: 4px;
+  text-align: center;
+}
+/* sp2 */
+.items_1 {
+  display: inline-block;
+}
+
+.items_1 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_1 .shirt-name_1 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_1 .price_1 {
+  padding: 4px;
+  text-align: center;
+}
+/* sp3 */
+.items_2 {
+  display: inline-block;
+}
+
+.items_2 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_2 .shirt-name_2 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_2 .price_2 {
+  padding: 4px;
+  text-align: center;
+}
+/* sp4 */
+.items_3 {
+  display: inline-block;
+}
+
+.items_3 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_3 .shirt-name_3 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_3 .price_3 {
+  padding: 4px;
+  text-align: center;
+}
+/* container_1 */
+.content .chumsanpham {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+/* sp5 */
+.items_4 {
+  display: inline-block;
+}
+
+.items_4 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_4 .shirt-name_4 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_4 .price_4 {
+  padding: 4px;
+  text-align: center;
+}
+/* sp6 */
+.items_5 {
+  display: inline-block;
+}
+
+.items_5 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_5 .shirt-name_5 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_5 .price_5 {
+  padding: 4px;
+  text-align: center;
+}
+/* sp7 */
+.items_6 {
+  display: inline-block;
+}
+
+.items_6 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_6 .shirt-name_6 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_6 .price_6 {
+  padding: 4px;
+  text-align: center;
+}
+/* sp8 */
+.items_7 {
+  display: inline-block;
+}
+
+.items_7 img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.items_7 .shirt-name_7 {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items_7 .price_7 {
+  padding: 4px;
+  text-align: center;
+}
+.content .chumsanpham_1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+/* footer */
+.footer {
+  background-color: #ccc;
+  margin-top: 48px;
+}
+
+.foot_head {
+  text-align: center;
+  font-size: 38px;
+  padding-top: 24px;
+}
+
+.foot_line_1 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+/* footer_1 */
+.footer_1 {
+  display: inline-block;
+  margin-left: 48px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer_2 {
+  display: inline-block;
+  margin-left: 300px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer_3 {
+  float: right;
+  margin-right: 440px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.foot_line_2 {
+  padding-bottom: 10px;
+}
+
+/* end_1 */
+.end_1 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.end_1 li {
+  margin-left: 48px;
+  padding: 12px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.end_1 li a {
+  text-decoration: none;
+  color: #000;
+}
+/* end_2 */
+.end_2 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.end_2 li {
+  margin-left: 160px;
+  padding: 12px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.end_2 li a {
+  text-decoration: none;
+  color: #000;
+}
+/* end_3 */
+.end_3 {
+  height: 180px;
+  width: 500px;
+  background-color: #000;
+  float: right;
+  margin-right: 30px;
+}
+
+.end_3 .logo {
+  height: 100px;
+  width: 100px;
+  margin: 8px;
+  border: 8px #ccc solid;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.end_3 .slogan_1 {
+  color: #fff;
+  float: right;
+  margin-right: 28px;
+  margin-top: 80px;
+}
+
+.sub_end_3 {
+  background-color: #fff;
+  display: inline-block;
+  margin: 12px;
+  padding: 4px 8px;
+}
+
+.sub_end_3 .fb {
+  height: 20px;
+  width: 20px;
+  margin-top: 4px;
+}
+
+.sub_end_3 .lp {
+  float: right;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.sub_end_3 .lp a {
+  text-decoration: none;
+  color: #000;
+}
+/* login */
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity linear 0.2s;
+}
+
+.dialog:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overplay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dialog_body {
+  max-width: 1200px;
+  height: 600px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+}
+
+.dialog_body_1 .camep {
+  height: 600px;
+  width: 800px;
+}
+
+.dialog_body_2 {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 60px;
+}
+
+.dialog_body_2 .lg {
+  height: 140px;
+  width: 200px;
+  margin: 8px 8px 24px 8px;
+}
+
+.dialog_body_2 #username,
+.dialog_body_2 #password {
+  padding: 8px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  background-color: #efefef;
+}
+
+.dialog_body_2 #box_1,
+.dialog_body_2 #box_2 {
+  margin-bottom: 12px;
+}
+
+.dialog_body_2 .rmb,
+.dialog_body_2 .fg {
+  font-size: 18px;
+}
+
+.dialog_body_2 .login {
+  padding: 8px 76px 8px 76px;
+  border-radius: 24px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #000;
+  margin: 8px 0 12px 20px;
+}
+
+.dialog_body_2 .tex {
+  margin: 8px 0 24px 0;
+  font-size: 18px;
+}
+
+.icon .fb,
+.icon .ins,
+.icon .tt {
+  height: 50px;
+  width: 50px;
+}
+
+.dialog_body_2 .icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overplay_close {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+.dialog_1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity linear 0.2s;
+}
+
+.dialog_1:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overplay_1 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.body_1 .camap {
+  height: 600px;
+  width: 800px;
+}
+
+.body_2 .register {
+  height: 140px;
+  width: 200px;
+  margin: 12px 68px 36px 68px;
+}
+
+.dialog_body_1 {
+  max-width: 1200px;
+  height: 600px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+}
+
+.dialog_body_1 .body_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.body_2 #user,
+.body_2 #pass,
+.body_2 #phone,
+.body_2 #email {
+  max-width: 200px;
+  margin-left: 72px;
+  padding: 6px;
+  font-size: 20px;
+  margin-bottom: 28px;
+  background-color: #efefef;
+}
+
+.body_2 #lgin {
+  max-width: 200px;
+  margin-left: 70px;
+  margin-top: 4px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #333;
+  padding: 4px;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+.icon_1 .fcb,
+.icon_1 .insg,
+.icon_1 .ttr {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.body_2 .icon_1 {
+  margin-left: 52px;
+  max-width: 245px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overplay_close_1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+
+  max-width: 300px;
+
+  z-index: 1;
+  max-height: 120px;
+  transition: 0.5;
+}
+
+.font_nav_3:hover .dropdown-content {
+  display: block;
+  height: 50px;
+  padding-bottom: 16px;
+}
+
+.size {
+  max-width: 200px;
+  margin: 0 24px;
+  padding: 10px;
+  border-radius: 10px;
+  top: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
